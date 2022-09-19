@@ -1,3 +1,6 @@
+# Name: Becky Tseng
+# StudentID Number: 2038591
+
 currentMonth = input('Please type in the current month ')
 currentDay = input('Please type in the current day ')
 currentYear = input('Please type in the current year ')
