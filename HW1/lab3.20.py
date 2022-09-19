@@ -1,3 +1,6 @@
+# Name: Becky Tseng
+# StudentID Number: 2038591
+
 from math import ceil
 
 wallHeight = input('Enter wall height (feet):\n')
