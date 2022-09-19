@@ -1,3 +1,6 @@
+# Name: Becky Tseng
+# StudentID Number: 2038591
+
 user_num = int(input('Enter integer:\n'))
 
 print('You entered:', user_num)
