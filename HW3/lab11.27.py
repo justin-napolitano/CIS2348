@@ -1,3 +1,6 @@
+#Name: Becky Tseng
+#StudentID: 2038591
+
 pdict={}#dictionary
 for i in range(1,6):#accpting 5 inputs from user
     print("Enter player "+str(i)+"'s jersey number:")
