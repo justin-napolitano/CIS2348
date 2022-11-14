@@ -1,3 +1,6 @@
+#Name: Becky Tseng
+#StudentID: 2038591
+
 data = input().split()
 
 for word in data:

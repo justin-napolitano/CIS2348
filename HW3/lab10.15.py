@@ -1,3 +1,6 @@
+#Name: Becky Tseng
+#StudentID: 2038591
+
 class Team:
     def __init__(self):
         self.team_name = 'none'

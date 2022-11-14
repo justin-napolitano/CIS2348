@@ -1,3 +1,6 @@
+#Name: Becky Tseng
+#StudentID: 2038591
+
 class ItemToPurchase:
     def __init__(self, name='none', price=0, quantity=0, description='none'):
         self.item_name = name

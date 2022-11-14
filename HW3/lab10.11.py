@@ -1,3 +1,6 @@
+#Name: Becky Tseng
+#StudentID: 2038591
+
 class FoodItem:
     def __init__(self, name="None", fat=0.0, carbs=0.0, protein=0.0):
         self.name = name
