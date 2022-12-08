@@ -1,3 +1,6 @@
+#Name: Becky Tseng
+#StudentID: 2038591
+
 import csv
 
 #returns the third index of a list, which is the 4th column (price)

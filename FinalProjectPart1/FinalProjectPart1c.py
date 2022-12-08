@@ -1,3 +1,7 @@
+#Name: Becky Tseng
+#StudentID: 2038591
+
+
 import csv
 import datetime #you'll need this to get dates (get it, haha)
 

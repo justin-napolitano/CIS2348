@@ -2,7 +2,7 @@
 #StudentID: 2038591
 
 import csv
-from collections import defaultdict
+#from collections import defaultdict
 
 #this function returns a key for the built in sorted function
 def get_key(item):
