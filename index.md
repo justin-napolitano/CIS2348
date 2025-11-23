@@ -3,46 +3,54 @@ slug: "github-cis2348"
 title: "CIS2348"
 repo: "justin-napolitano/CIS2348"
 githubUrl: "https://github.com/justin-napolitano/CIS2348"
-generatedAt: "2025-11-23T08:22:14.512498Z"
+generatedAt: "2025-11-23T08:43:42.057256Z"
 source: "github-auto"
 ---
 
 
-# Behind the Scenes of My CIS2348 Python Projects
+# CIS2348 Project Overview and Technical Reference
 
-Hey there! I wanted to share a bit about the journey and the work behind my CIS2348 repository from Fall 2022. This collection of assignments and projects represents my exploration and growing mastery of Python programming fundamentals and problem-solving techniques.
+## Motivation and Problem Statement
 
-## Motivation and Problem Solving
+The CIS2348 repository serves as a practical compilation of programming exercises and projects designed to build and demonstrate foundational Python programming skills. The work systematically addresses common programming constructs such as input/output operations, control flow, data structures, sorting algorithms, file handling, and object-oriented programming. The final project focuses on integrating data from multiple CSV sources, a common real-world task in data processing and software development.
 
-When I started this course, my goal was to build a solid foundation in programming concepts — everything from basic input/output and control structures to more advanced topics like sorting algorithms and object-oriented design. Each homework assignment was designed to challenge me to apply what I learned in practical ways.
+## Project Composition and Implementation Details
 
-For example, in HW1, I tackled simple user input and arithmetic operations, like calculating squares and cubes of numbers, or scaling recipes for lemonade. These small programs helped me get comfortable with Python syntax and logic.
+### Homework Assignments
 
-Moving on to HW2 and HW3, I worked on more complex problems like parsing dates from text files, checking palindromes, and managing collections of objects representing items or teams. I even implemented sorting algorithms like selection sort and quicksort in HW4, which was a fantastic exercise in understanding algorithm efficiency and recursion.
+The repository is organized into four homework folders (HW1 through HW4), each containing Python scripts that address specific programming problems or labs:
 
-The final project was particularly interesting because it involved reading and merging data from multiple CSV files — a real-world task that taught me about data handling, dictionaries, and the importance of clean, maintainable code.
+- **HW1:** Basic programming tasks including arithmetic operations, user input handling, and simple conditionals.
+- **HW2:** More advanced topics such as string manipulation, regular expressions, file reading/writing, and basic algorithms (e.g., palindrome detection, exact change calculation).
+- **HW3:** Introduction to object-oriented programming with classes modeling real-world entities (e.g., teams, items to purchase, food items). It also includes dictionary usage and menu-driven programs.
+- **HW4:** More complex algorithms and data handling, including sorting algorithms (selection sort, quicksort), exception handling, and recursive function calls.
 
-## How It's Built
+Each homework script generally follows a pattern of reading user input or files, processing data with Python constructs, and outputting results to the console or files.
 
-The entire repo is built using Python 3, which I chose for its readability and extensive standard library. Most scripts are standalone programs that prompt for user input, perform calculations or data processing, and print results.
+### Final Project
 
-Some highlights include:
+The final project (in `FinalProjectPart1`) centers on processing and merging data from multiple CSV files:
 
-- **File I/O and Regular Expressions:** In HW2, I parsed dates from text files using regex, then compared and formatted them using Python's `datetime` module.
-- **Object-Oriented Programming:** In HW3, I created classes like `ItemToPurchase` and `Team` to encapsulate data and behavior, practicing principles like encapsulation and method design.
-- **Algorithms:** HW4 challenged me to implement sorting algorithms from scratch, deepening my understanding of algorithmic thinking.
-- **Data Integration:** The final project merges data from manufacturer, price, and service date CSV files, demonstrating how to combine datasets based on keys.
+- **Data Sources:** Manufacturer list, price list, and service dates, each stored in separate CSV files.
+- **Data Integration:** The project reads these CSV files into dictionaries and lists, then performs merging operations based on a common key (`item_id`).
+- **Data Structures:** Uses Python's `csv.DictReader` for parsing, and `defaultdict` for merging dictionaries efficiently.
+- **Output:** The merged dataset combines manufacturer details, pricing, and service dates into a consolidated structure.
 
-## Interesting Implementation Details
+### Coding Practices and Style
 
-- In the quicksort implementation, I used the last element as the pivot and carefully managed indices to partition the list, which was a great way to grasp recursion and divide-and-conquer strategies.
-- The lemonade recipe scaling in HW1 was a neat example of applying arithmetic operations to real-world problems, including unit conversions.
-- Handling exceptions in user input (like age validation) showed me the importance of robust programs that can gracefully handle unexpected input.
+- The code uses standard Python 3 syntax and libraries.
+- Input validation and exception handling are present in some scripts, particularly in HW4.
+- Object-oriented design is introduced in HW3 with classes encapsulating data and behavior.
+- Some scripts include comments and TODOs indicating areas for further development or clarification.
 
-## Why this project matters for my career
+## Practical Notes for Returning Developers
 
-This collection of projects is more than just homework — it’s a tangible demonstration of my growth as a developer. It shows my ability to write clean, functional Python code, solve diverse problems, and handle data effectively. These skills are foundational for any software engineering role, especially those involving data processing or backend development.
+- **Running Scripts:** Ensure required input files are present in the working directory when running scripts that depend on external data.
+- **Data Files:** The final project requires specific CSV files (`ManufacturerList.csv`, `PriceList.csv`, `ServiceDatesList.csv`) which are not included in the repository snapshot but are essential for execution.
+- **Extensibility:** Many scripts are structured to allow easy addition of new features, such as expanding the menu options in the roster management program or enhancing sorting algorithms.
+- **Error Handling:** Some scripts handle exceptions explicitly, but this is inconsistent; adding uniform error handling would improve robustness.
+- **Code Documentation:** While some comments exist, comprehensive documentation is limited; consider adding docstrings and inline comments for maintainability.
 
-Moreover, by sharing this work publicly, I’m building a portfolio that potential employers or collaborators can review. It reflects my commitment to learning and my readiness to tackle real-world coding challenges.
+## Summary
 
-Thanks for reading! If you’re learning Python or diving into programming projects, I hope my experiences inspire you to keep coding and exploring.
+This repository is a methodical collection of Python programming exercises that progressively build competence in fundamental programming concepts and techniques. The final project applies these skills to a practical data integration task involving CSV files. The codebase is suitable for review, extension, and use as a reference for foundational Python programming patterns and practices.
