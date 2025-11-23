@@ -1,16 +1,16 @@
 # CIS2348
 
-This repository contains a collection of Python programming assignments and projects completed for the CIS2348 course in Fall 2022. The code demonstrates foundational programming concepts, problem-solving, and algorithm implementations.
+This repository contains a comprehensive collection of Python programming assignments and projects completed for the CIS2348 course in Fall 2022. It demonstrates foundational programming concepts, problem-solving skills, and algorithm implementations across multiple homework assignments and a final project.
 
 ## Features
 
-- Solutions to various homework assignments (HW1 to HW4) covering topics such as basic input/output, control flow, data structures, sorting algorithms, and file handling.
-- Final project part demonstrating CSV file processing and data merging.
+- Solutions to homework assignments (HW1 to HW4) covering topics such as basic input/output, control flow, data structures, sorting algorithms, file handling, and exception management.
+- Final project focused on CSV file processing, data merging, and integration.
 - Examples of object-oriented programming with classes and methods.
 
 ## Tech Stack
 
-- Python 3 (assumed from syntax and file extensions)
+- Python 3
 
 ## Getting Started
 
@@ -55,9 +55,4 @@ CIS2348/
 - Add detailed documentation and comments to all scripts for better clarity.
 - Include input sample files and expected outputs for easier testing.
 - Implement automated testing for homework assignments.
-- Expand the final project to include a user interface or data visualization.
-- Refactor code to follow best practices and improve modularity.
-
----
-
-*Note: The primary programming language is Python, inferred from file extensions and syntax. Some assumptions were made due to missing explicit project description.*
+- Expand the final project with more robust data validation and error handling.
