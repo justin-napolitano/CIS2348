@@ -21,6 +21,14 @@ seoSecondaryKeywords:
   - object-oriented programming
   - sorting algorithms
 seoOptimized: true
+topicFamily: datascience
+topicFamilyConfidence: 0.95
+topicFamilyNotes: >-
+  The post focuses on Python programming exercises that include reading, processing, and integrating
+  CSV data files, which aligns well with data analysis, ETL pipelines, and data workflows described
+  under the 'datascience' family. Though the post involves programming fundamentals and OOP, the
+  emphasis on CSV data integration and the presence of this repo slug in example_slugs support
+  'datascience' as the best fit.
 ---
 
 # CIS2348 Project Overview and Technical Reference
@@ -69,3 +77,4 @@ The final project (in `FinalProjectPart1`) centers on processing and merging dat
 ## Summary
 
 This repository is a methodical collection of Python programming exercises that progressively build competence in fundamental programming concepts and techniques. The final project applies these skills to a practical data integration task involving CSV files. The codebase is suitable for review, extension, and use as a reference for foundational Python programming patterns and practices.
+
