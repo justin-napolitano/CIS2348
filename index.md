@@ -1,12 +1,27 @@
 ---
-slug: "github-cis2348"
-title: "CIS2348"
-repo: "justin-napolitano/CIS2348"
-githubUrl: "https://github.com/justin-napolitano/CIS2348"
-generatedAt: "2025-11-23T08:43:42.057256Z"
-source: "github-auto"
+slug: github-cis2348
+title: CIS2348 Python Programming Exercises and CSV Data Integration Project
+repo: justin-napolitano/CIS2348
+githubUrl: https://github.com/justin-napolitano/CIS2348
+generatedAt: '2025-11-23T08:43:42.057256Z'
+source: github-auto
+summary: >-
+  Collection of Python assignments covering fundamental programming concepts and a final project
+  integrating multiple CSV data sources.
+tags:
+  - python
+  - csv
+  - data-integration
+  - programming-exercises
+  - object-oriented
+  - sorting-algorithms
+seoPrimaryKeyword: python programming exercises
+seoSecondaryKeywords:
+  - csv data integration
+  - object-oriented programming
+  - sorting algorithms
+seoOptimized: true
 ---
-
 
 # CIS2348 Project Overview and Technical Reference
 
