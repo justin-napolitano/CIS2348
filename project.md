@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/CIS2348
 generatedAt: '2025-11-24T21:34:13.895Z'
 source: github-auto
 summary: >-
-  Explore a collection of Python programming assignments from the CIS2348
-  course, showcasing foundational concepts and algorithm implementations.
+  Explore a collection of Python programming assignments from the CIS2348 course, showcasing
+  foundational concepts and algorithm implementations.
 tags:
   - python
   - csv processing
@@ -25,8 +25,8 @@ seoSecondaryKeywords:
   - file handling
   - exception management
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: datascience
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -91,4 +91,5 @@ CIS2348/
 - Include input sample files and expected outputs for easier testing.
 - Implement automated testing for homework assignments.
 - Expand the final project with more robust data validation and error handling.
+
 
