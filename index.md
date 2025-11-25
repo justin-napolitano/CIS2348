@@ -1,13 +1,13 @@
 ---
 slug: github-cis2348
-title: CIS2348 Python Programming Exercises and CSV Data Integration Project
+title: 'CIS2348 Project Overview: Python Programming Exercises'
 repo: justin-napolitano/CIS2348
 githubUrl: https://github.com/justin-napolitano/CIS2348
 generatedAt: '2025-11-23T08:43:42.057256Z'
 source: github-auto
 summary: >-
-  Collection of Python assignments covering fundamental programming concepts and a final project
-  integrating multiple CSV data sources.
+  Explore a collection of Python programming exercises and a final project
+  focused on data integration from CSV files.
 tags:
   - python
   - csv
@@ -15,20 +15,31 @@ tags:
   - programming-exercises
   - object-oriented
   - sorting-algorithms
-seoPrimaryKeyword: python programming exercises
-seoSecondaryKeywords:
-  - csv data integration
+  - data integration
   - object-oriented programming
   - sorting algorithms
+  - file handling
+  - programming exercises
+seoPrimaryKeyword: CIS2348 Python programming
+seoSecondaryKeywords:
+  - Python exercises
+  - data processing
+  - CSV file handling
+  - object-oriented design
+  - programming projects
+  - coding practices
 seoOptimized: true
 topicFamily: datascience
 topicFamilyConfidence: 0.95
 topicFamilyNotes: >-
-  The post focuses on Python programming exercises that include reading, processing, and integrating
-  CSV data files, which aligns well with data analysis, ETL pipelines, and data workflows described
-  under the 'datascience' family. Though the post involves programming fundamentals and OOP, the
-  emphasis on CSV data integration and the presence of this repo slug in example_slugs support
-  'datascience' as the best fit.
+  The post focuses on Python programming exercises that include reading,
+  processing, and integrating CSV data files, which aligns well with data
+  analysis, ETL pipelines, and data workflows described under the 'datascience'
+  family. Though the post involves programming fundamentals and OOP, the
+  emphasis on CSV data integration and the presence of this repo slug in
+  example_slugs support 'datascience' as the best fit.
+kind: project
+id: github-cis2348
 ---
 
 # CIS2348 Project Overview and Technical Reference
