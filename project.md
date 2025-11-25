@@ -1,21 +1,29 @@
 ---
 slug: github-cis2348
 id: github-cis2348
-title: CIS2348
+title: Python Programming Assignments for CIS2348 Course
 repo: justin-napolitano/CIS2348
 githubUrl: https://github.com/justin-napolitano/CIS2348
 generatedAt: '2025-11-24T21:34:13.895Z'
 source: github-auto
 summary: >-
-  This repository contains a comprehensive collection of Python programming
-  assignments and projects completed for the CIS2348 course in Fall 2022. It
-  demonstrates foundational programming concepts, problem-solving skills, and
-  algorithm implementations across multiple homework assignments and a final
-  project.
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  Explore a collection of Python assignments from CIS2348, showcasing
+  foundational programming concepts and algorithm implementations.
+tags:
+  - python
+  - csv processing
+  - data structures
+  - object-oriented programming
+  - algorithm implementations
+  - homework assignments
+seoPrimaryKeyword: CIS2348 python assignments
+seoSecondaryKeywords:
+  - python programming projects
+  - data merging in python
+  - control flow in python
+  - sorting algorithms python
+  - file handling python
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
